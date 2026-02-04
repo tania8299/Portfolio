@@ -2,8 +2,10 @@ import logo1 from "../assets/logos/dipkunj.png"
 import logo2 from "../assets/logos/portfolio.png"
 import logo3 from "../assets/logos/Demo-logo1.png"
 import logo4 from "../assets/logos/Demo-logo.png"
+import logo5 from "../assets/logos/DarkPsych.png"
 import banner1 from "../assets/banners/music-banner.png"
 import banner2 from "../assets/banners/beauty-banner.png"
+import banner3 from "../assets/banners/facts-banner.png"
 import project1 from "../assets/frontend/portfolio.png"
 import project2 from "../assets/frontend/landing.png"
 import project3 from "../assets/frontend/dashboard.png"
@@ -39,7 +41,7 @@ export default function Projects() {
                                     Live Demo
                                 </a>
                                 <a
-                                    href="https://github.com/tania8299"
+                                    href="https://github.com/tania8299/Portfolio"
                                     target="_blank"
                                     className="text-gray-700 hover:underline"
                                 >
@@ -61,7 +63,7 @@ export default function Projects() {
                             </p>
                             <div className="flex gap-4 text-sm">
                                 <a
-                                    href="https://your-live-demo-link.com"
+                                    href="https://fabulous-medovik-63d591.netlify.app/"
                                     target="_blank"
                                     className="text-blue-600 hover:underline"
                                 >
@@ -90,7 +92,7 @@ export default function Projects() {
                             </p>
                             <div className="flex gap-4 text-sm">
                                 <a
-                                    href="https://your-live-demo-link.com"
+                                    href="https://usersection.netlify.app/"
                                     target="_blank"
                                     className="text-blue-600 hover:underline"
                                 >
@@ -137,6 +139,11 @@ export default function Projects() {
                             name: "NovaTech",
                             caption: "Modern IT company logo",
                         },
+                        {
+                            img: logo5,
+                            name: "DarkPsych",
+                            caption: "Dark psychology branding logo",
+                        },
                     ].map((item, i) => (
                         <div
                             key={i}
@@ -180,9 +187,9 @@ export default function Projects() {
                             caption: "Clean and modern banner for fashion creators",
                         },
                         {
-                            img: banner1,
-                            title: "Tech / Gaming Banner",
-                            caption: "Bold banner concept for tech or gaming channels",
+                            img: banner3,
+                            title: "Psychology Facts Channel Banner",
+                            caption: "Bold banner concept for Fact of psychology channels",
                         },
                     ].map((item, i) => (
                         <div
