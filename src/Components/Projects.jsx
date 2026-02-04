@@ -34,7 +34,7 @@ export default function Projects() {
                             </p>
                             <div className="flex gap-4 text-sm">
                                 <a
-                                    href="https://your-live-demo-link.com"
+                                    href="https://myportfolio8299.netlify.app/"
                                     target="_blank"
                                     className="text-blue-600 hover:underline"
                                 >
