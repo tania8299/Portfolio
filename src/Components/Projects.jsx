@@ -7,7 +7,7 @@ import banner1 from "../assets/banners/music-banner.png"
 import banner2 from "../assets/banners/beauty-banner.png"
 import banner3 from "../assets/banners/Facts-banner.png"
 import project1 from "../assets/frontend/portfolio.png"
-import project2 from "../assets/frontend/landing.png"
+import project2 from "../assets/frontend/Landing.png"
 import project3 from "../assets/frontend/dashboard.png"
 
 export default function Projects() {
